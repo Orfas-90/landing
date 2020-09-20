@@ -5,20 +5,41 @@
 body{
 	font-family: Garamond;
 }
-.hdr-block{
 
-	margin-top: 30px;
+.block-hide2{
+	display: none;
+}
+
+.cover2{
+	display: none;
+}
+
+.second-cover2{
+	display: none;
+}
+.hdr-center{
+	display: none;
+}
+.hdr-center-menu{
+	display: none;
+}
+.features-block2{
+	display: none;
+}
+.features-block3{
+		display: none;
 }
 .left-ul{
 	display: flex;
 }
 .left-ul li{
 	list-style: none;
+	margin-right: 4%;
 }
 .left-ul li a{
 	text-decoration: none;
 	color: black;
-	margin-right: 35px;
+	
 }
 .active{
 	text-transform: uppercase;
@@ -44,6 +65,7 @@ body{
 
 header{
 	border-bottom: 2px solid #DCDCDC;
+	margin-top: 20px;
 }
 .first-left{
 	margin-left: 60px;
@@ -104,7 +126,8 @@ header{
 }
 .title-h{
 	text-align: center;
-    margin: 30px auto;
+    padding-top: 30px;
+	padding-bottom: 30px;
 }
 .form{
 	margin: auto 150px;
@@ -206,4 +229,120 @@ footer{
 }
 .img-2:hover .hide-div{
 	display: block;
+}
+@media(max-width: 849px) {
+ .hdr-block{
+	display: none;
+ }
+ .hdr-center{
+	display: block;
+ }
+ .first-left{
+	margin-left: 30px;
+    margin-right: 20px;
+ }
+ .features-block{
+	display: none;
+}
+ .features-block2{
+	display: block;
+	padding: 0 50px;
+}
+.pd-bottom{
+	border-bottom: 2px solid #DCDCDC;
+}
+}
+@media(max-width: 667px) {
+	.check-block{
+		display: block;
+	}
+}
+@media(max-width: 599px) {
+	.block-hide{
+		display: none;
+	}
+	.block-hide2{
+		display: block;
+	}
+	.cover{
+		display: none;
+	}
+	.cover2{
+		display: block;
+	}
+	.second-cover{
+		display: none;
+	}
+	.second-cover2{
+		display: block;
+	}
+	.pictures{
+		width: 100%;
+	}
+	.lets{
+		margin-top: 30px;
+	}
+	.first-left{
+		margin-left: 50px;
+		margin-right: 50px;
+	}
+	.first-btn {
+		margin-bottom: 40px;
+	}
+	.second-right {
+		margin-right: 50px;
+		margin-left: 50px;
+	}
+	.story{
+		margin-top: 30px;
+	}
+	.second-btn{
+		margin-bottom: 40px;
+	}
+	.third-btn{
+		margin-bottom: 40px;
+	}
+	.galery-border{
+		border-top: 2px solid #DCDCDC;
+	}
+	header{
+		border-bottom: 2px solid white;
+	}
+	.adapt{
+		display: block !important;
+	}
+	.features-block2{
+		display: none;
+	}
+	.features-block3{
+		display: block;
+	}
+	.pd-bottom{
+		margin: 0 60px;
+	}
+	.rigrt-border{
+		border-right: 2px solid white;
+	}
+	.icon {
+		padding: 0 44%;
+	}
+	.form {
+		margin: auto 100px;
+	}
+	.hdr-center{
+		display: none;
+	}
+	.hdr-center-menu{
+		display: block;
+	}
+	.bg-light {
+		background-color: white!important;
+	}
+	.navbar-light .navbar-toggler {
+
+		border-color: white!important;
+	}
+	.navbar-brand {
+		font-weight: bolder;
+	}
 }
